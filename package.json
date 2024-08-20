@@ -1,0 +1,21 @@
+{
+  "name": "check-dollar-value",
+  "version": "1.0.0",
+  "description": "An app for checking an updated value of the dollar in Venezuela through the BCV official page.",
+  "main": "server.js",
+  "scripts": {
+    "start": "cross-env NODE_EXTRA_CA_CERTS=\"D:\\xampp\\htdocs\\projects\\CheckDollarValue\\intermediate.pem\" node server.js"
+  },
+  "author": "Victor Homez, Samuel Aular",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.4",
+    "cheerio": "^1.0.0",
+    "cross-env": "^7.0.3",
+    "jquery": "^3.6.1",
+    "jsdom": "^20.0.3",
+    "luxon": "^3.3.0",
+    "mysql": "^2.18.1",
+    "ssl-root-cas": "^1.3.1"
+  }
+}
